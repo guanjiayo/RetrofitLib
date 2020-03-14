@@ -64,3 +64,6 @@ HashMap params=new HashMap();
      implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
 ```
 
+
+
+由于这个库用起来感觉失去自定义接口参数的优势,然后必须只能返回String,后续又要重新处理一遍数据,感觉和直接使用OKhttp差不多,因此个人暂时弃用,这里留作备份
